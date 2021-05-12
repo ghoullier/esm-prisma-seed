@@ -1,0 +1,23 @@
+{
+  "name": "esm-prisma-seed",
+  "version": "1.0.0",
+  "repository": "git@github.com:ghoullier/esm-prisma-seed.git",
+  "author": "Grégory Houllier <gregory.houllier@swile.co>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node --loader ts-node/esm ./src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "2.22.1",
+    "@types/node": "15.0.1",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.4"
+  },
+  "devDependencies": {
+    "prisma": "2.22.1"
+  },
+  "engines": {
+    "node": ">=15"
+  }
+}
